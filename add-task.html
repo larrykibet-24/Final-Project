@@ -17,5 +17,23 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <section class="form-section">
+            <h1>Create New Task</h1>
+            <form id="task-form">
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" placeholder="e.g. Mathematics" required>
+                </div>
+                <div class="form-group">
+                    <label for="task">Task Description</label>
+                    <textarea id="task" rows="4" placeholder="What do you need to study?" required></textarea>
+                </div>
+                <div id="error-message" class="error"></div>
+                <button type="submit" id="submit-btn">Save Task</button>
+            </form>
+        </section>
+    </main>
+
 </body>
 </html>
