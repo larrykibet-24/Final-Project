@@ -1,35 +1,35 @@
 <h1>StudySync Planner</h1>
 
-Project Overview
+<h2>Project Overview</h2>
 
 StudySync is a productivity-focused web application designed to help students organize their academic workload efficiently. By providing a centralized platform for task management, StudySync helps students visualize their study requirements, prioritize subjects, and maintain academic momentum.
 
-The Problem it Solves
+<h2>The Problem it Solves</h2>
 Students often have deadlines and study tasks scattered across various platforms like emails, physical notebooks, and syllabi. StudySync provides a single source of truth where tasks are persisted locally in the browser. This prevents "decision fatigue" by allowing students to plan their study sessions in advance and track their progress through a clean, modern interface.
 
- Key Features
-1. Semantic & Accessible HTML
+ <h2>Key Features</h2>
+<h3>1. Semantic & Accessible HTML</h3>
 Utilizes Semantic HTML5 tags such as <header>, <nav>, <main>, <section>, and <footer> for a well-organized and accessible document structure.
 
 Implements a valid document head with responsive meta tags and descriptive titles for each page.
 
-2. Responsive CSS Design
+<h3>2. Responsive CSS Design</h3>
 Layout Techniques: Employs CSS Grid for the task dashboard and Flexbox for the navigation system.
 
 Mobile-First Approach: Custom Media Queries are implemented to ensure the planner is fully functional and aesthetically pleasing on mobile, tablet, and desktop devices.
 
 Consistent UI: A cohesive color palette and typography provide a professional user experience.
 
-3. JavaScript & Data Persistence
+<h3>3. JavaScript & Data Persistence</h3>
 LocalStorage API: All tasks are persisted in the browser's localStorage. This ensures that data added on the "Add Task" page is visible on the "Dashboard" even after the browser is closed or refreshed.
 
-DOM Manipulation: The Dashboard dynamically generates "Task Cards" based on stored data.
+<strong>DOM Manipulation:</strong> The Dashboard dynamically generates "Task Cards" based on stored data.
 
-Form Validation: The application ensures that both the subject and description are provided before allowing a task to be saved, providing real-time error messages to the user.
+<strong>Form Validation:</strong> The application ensures that both the subject and description are provided before allowing a task to be saved, providing real-time error messages to the user.
 
-Event Handling: Uses centralized event listeners to manage form submissions and task deletions.
+<strong>Event Handling:</strong> Uses centralized event listeners to manage form submissions and task deletions.
 
- Project Structure
+ <h2>Project Structure</h2>
 The application consists of three interconnected pages:
 
 Dashboard (index.html): The primary view where users see their current study tasks displayed in a grid.
@@ -38,7 +38,7 @@ Add Task (add-task.html): The management page featuring a validated form to inpu
 
 About (about.html): An educational page explaining the benefits of time blocking and strategic planning.
 
- Technologies Used
+ <h2>Technologies Used</h2>
 HTML5: Semantic structure and form elements.
 
 CSS3: Custom styling, Grid/Flexbox layouts, and Media Queries.
@@ -47,7 +47,7 @@ JavaScript (ES6): Logic for task creation, deletion, and DOM updates.
 
 Web Storage API: localStorage for cross-page data persistence.
 
- Setup Instructions
+ <h2>Setup Instructions</h2>
 Clone the Repository:
 
 Bash
@@ -55,7 +55,7 @@ git clone git@github.com:larrykibet-24/Final-Project.git
 Run the App:
 Simply open the index.html file in any modern web browser. No server setup or dependencies are required.
 
-How to Use:
+<h2>How to Use:</h2>
 
 Navigate to "Add Task".
 
@@ -82,7 +82,7 @@ When: They click the "Remove" button on a task card.
 
 Then: The task is removed from localStorage and the UI updates immediately.
 
- Author
+ <h2>Author</h2>
 Larry Kibet
 
 Email: larry.kibet2@student.moringaschool.com
@@ -91,6 +91,6 @@ GitHub: larrykibet-24
 
 live link : https://larrykibet-24.github.io/Final-Project/
 
- License
+ <h2>License</h2>
 Copyright © 2026 Larry Kibet.
 This project is licensed under the MIT License.
