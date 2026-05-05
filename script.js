@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       if (tasks.length === 0) {
         taskContainer.innerHTML =
-          '<p class="empty-msg">No tasks found. Go to "Add Task" to start!</p>';
+          '<p class="loader">No tasks found. Go to "Add Task" to schedule a task!</p>';
         return;
       }
 // clear what has been entered
