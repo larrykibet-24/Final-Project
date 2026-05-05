@@ -1,4 +1,4 @@
-StudySync Planner
+<h1>StudySync Planner</h1>
 
 Project Overview
 
