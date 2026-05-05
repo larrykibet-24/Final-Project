@@ -100,3 +100,15 @@ button:hover {
   text-transform: uppercase;
   font-weight: bold;
 }
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+  nav ul {
+    margin-top: 1rem;
+  }
+  #task-container {
+    grid-template-columns: 1fr;
+  }
+}
