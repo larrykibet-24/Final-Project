@@ -1,5 +1,7 @@
 StudySync Planner
+
 Project Overview
+
 StudySync is a productivity-focused web application designed to help students organize their academic workload efficiently. By providing a centralized platform for task management, StudySync helps students visualize their study requirements, prioritize subjects, and maintain academic momentum.
 
 The Problem it Solves
