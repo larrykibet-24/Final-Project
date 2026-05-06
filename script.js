@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
         description: taskDesc,
       };
 
-      // Get existing tasks 
+      // Get existing tasks
       const tasks = JSON.parse(localStorage.getItem("studyTasks")) || [];
       tasks.push(newTask);
 
@@ -46,8 +46,8 @@ document.addEventListener("DOMContentLoaded", () => {
           '<p class="loader">No tasks found. Go to "Add Task" to schedule a task!</p>';
         return;
       }
-// clear what has been entered if it is not required any more
-      taskContainer.innerHTML = ""; 
+      // clear what has been entered if it is not required any more
+      taskContainer.innerHTML = "";
       tasks.forEach((item) => {
         const card = document.createElement("div");
         card.className = "task-card";
@@ -70,5 +70,5 @@ function deleteTask(id) {
   tasks = tasks.filter((t) => t.id !== id);
   localStorage.setItem("studyTasks", JSON.stringify(tasks));
   //Refresh to update
-  location.reload(); 
+  location.reload();
 }
