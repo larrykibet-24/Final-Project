@@ -8,8 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
     taskForm.addEventListener("submit", (e) => {
       e.preventDefault();
 
-      const subject = document.getElementById("subject").value.trim();
-      const taskDesc = document.getElementById("task").value.trim();
+      const subject = document.getElementById("subject").value;
+      const taskDesc = document.getElementById("task").value;
 
       // Validation
       if (subject === "" || taskDesc === "") {
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
           '<p class="loader">No tasks found. Go to "Add Task" to schedule a task!</p>';
         return;
       }
-// clear what has been entered
+// clear what has been entered if it is not required any more
       taskContainer.innerHTML = ""; 
       tasks.forEach((item) => {
         const card = document.createElement("div");
