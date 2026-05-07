@@ -65,7 +65,7 @@ Click "Save Task" to persist the data.
 
 Return to the "Dashboard" to view or remove your tasks.
 
- BDD (Behavior-Driven Development)
+BDD (Behavior-Driven Development)
 Scenario: Saving a Task
 
 Given: A user is on the "Add Task" page.
