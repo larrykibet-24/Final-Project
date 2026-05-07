@@ -17,11 +17,21 @@ header {
 }
 .logo-text{
   font-weight: 600;
+  font-size: 80px;
 }
 .logoimg{
   border-radius: 50%;
   width: 100px;
   height: 100px;
+}
+.Aboutimgs{
+  display: flex;
+  gap: 100px;
+
+}
+.img2{
+  width: 330px;
+  height: 300px;
 }
 nav {
   display: flex;
