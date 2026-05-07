@@ -82,7 +82,7 @@ input,
 textarea {
   width: 100%;
   padding: 15px;
-  border: 1px solid #ddd;
+  border: 1px solid grey;
   border-radius: 4px;
 }
 button {
@@ -98,6 +98,7 @@ button:hover {
   opacity: 0.9;
 }
 
+
 /* Task Cards - Grid */
 #task-container {
   display: grid;
@@ -109,8 +110,12 @@ button:hover {
   background: white;
   padding: 24px;
   border-left: 5px solid #2c8ac9;
-  border-radius: 4px;
+  border-top: 1px solid grey;
+border-right: 1px solid grey;
+border-bottom: 1px solid grey;
+  border-radius: 8px;
   position: relative;
+  
 }
 .delete-btn {
   color: red;
